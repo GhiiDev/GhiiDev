@@ -16,14 +16,13 @@
 
 <br>
 
-```> cat system_allocation.log
+### ■ SYSTEM CORE
 
-[ SYSTEM RESOURCES ALLOCATION ]
-Backend Architecture : [████████████░░░░] 75%
-Systems Programming  : [██████████░░░░░░] 60%
-Scripting/Automation : [██████████████░░] 85%
-DevOps / CI-CD       : [██████░░░░░░░░░░] 40%
-```
+<img src="core.svg" width="280">
+
+<br>
+
+
 ### ■ OPERATING PRINCIPLES
 
 </div>
