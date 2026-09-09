@@ -25,6 +25,8 @@
 
 ### ■ OPERATING PRINCIPLES
 
+<br>
+
 </div>
 
 > **01. Control:** Command line over GUI. Arch Linux as the absolute foundation.
