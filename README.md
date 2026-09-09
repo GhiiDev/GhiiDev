@@ -1,16 +1,14 @@
 <div align="center">
 
-```text
-       /\          │
-      /  \         │ G H I I D E V
-     /\   \        │
-    /      \       │ SYSTEMS & APPLICATION
-   /   ,,   \      │ ENGINEERING
-  /   |  |   \     │ ────────────────────────
- /_-''    ''-_\    │ Crafting robust systems.
-```
-
 <br>
+
+# <kbd> G H I I D E V </kbd>
+
+### ` >_ SYSTEMS & APPLICATION ENGINEERING `
+
+*Crafting robust systems. Arch Linux native.*
+
+<br><br>
 
 ### ■ THE STACK
 
