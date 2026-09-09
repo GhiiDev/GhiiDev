@@ -1,6 +1,6 @@
 <div align="center">
 
-<pre><code>
+```text
        /\          │
       /  \         │ G H I I D E V
      /\   \        │
@@ -8,9 +8,7 @@
    /   ,,   \      │ ENGINEERING
   /   |  |   \     │ ────────────────────────
  /_-''    ''-_\    │ Crafting robust systems.
-</code></pre>
-
-*Crafting robust systems. Arch Linux native.*
+```
 
 <br>
 
@@ -30,7 +28,7 @@
 > 
 > **03. Scale:** Java for architecting robust and predictably maintainable backends.
 > 
-> **04. Agility:** Python for rapid prototyping, seamless automation, and AI.
+> **04. Agility:** Python for rapid prototyping, seamless automation, and scripting.
 > 
 > **05. History:** Git is not a backup; it is the precise narrative of engineering decisions.
 
@@ -38,6 +36,5 @@
 
 <br>
 
-<br><br>
 
 </div>
