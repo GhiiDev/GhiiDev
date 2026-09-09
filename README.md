@@ -1,9 +1,13 @@
 <div align="center">
 
-___ _  _ ___ ___ ___  _____   __
- / __| || |_ _|_ _|   \| __\ \ / /
-| (_ | __ || | | || |) | _| \ V / 
- \___|_||_|___|___|___/|___| \_/
+<pre>
+          /\          │
+         /  \         │ G H I I D E V
+        /    \        │
+       /  ,,  \       │ SYSTEMS & APPLICATION
+      /  |  |  \      │ ENGINEERING
+     /__''  ''__\     │ ─────────────────────
+</pre>
 
 *Crafting robust systems. Arch Linux native.*
 
