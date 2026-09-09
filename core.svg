@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500">
   <style>
-    .scene { perspective: 1200px; transform-style: preserve-3d; }
+    .scene { perspective: 1600px; transform-style: preserve-3d; }
     
     .gyro { 
       transform-origin: 300px 300px; 
