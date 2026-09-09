@@ -18,7 +18,7 @@
 
 ### ■ SYSTEM CORE
 
-<img src="core.svg" width="280">
+<img src="core.svg" width="450">
 
 <br>
 
