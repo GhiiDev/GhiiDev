@@ -1,10 +1,9 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="280" height="280" viewBox="0 0 280 280">
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500">
   <style>
-    
-    .scene { perspective: 800px; transform-style: preserve-3d; }
+    .scene { perspective: 1200px; transform-style: preserve-3d; }
     
     .gyro { 
-      transform-origin: 140px 140px; 
+      transform-origin: 250px 250px; 
       transform-style: preserve-3d; 
       animation: matrixTumble 12s infinite linear; 
     }
@@ -23,69 +22,74 @@
       white-space: pre; 
     }
     
+    /* Planos com origem de transformação cravada no centro 250x250 */
     .plane-1 { fill: #ffffff; }
-    .plane-2 { fill: #aaaaaa; transform: rotateY(90deg); }
-    .plane-3 { fill: #555555; transform: rotateX(90deg); }
-    .plane-4 { fill: #888888; transform: rotateX(45deg) rotateY(45deg); }
+    .plane-2 { fill: #aaaaaa; transform-origin: 250px 250px; transform: rotateY(90deg); }
+    .plane-3 { fill: #555555; transform-origin: 250px 250px; transform: rotateX(90deg); }
+    .plane-4 { fill: #888888; transform-origin: 250px 250px; transform: rotateX(45deg) rotateY(45deg); }
     
-    .core-node { fill: #ffffff; font-size: 24px; font-weight: 900; }
+    .core-node { fill: #ffffff; font-size: 26px; font-weight: 900; }
   </style>
   
   <g class="scene">
     <g class="gyro">
       
-      <text x="140" y="140" class="ascii core-node">G</text>
+      <text x="250" y="250" class="ascii core-node"></text>
       
+      <!-- Anel 1 (Eixo Z Frontal) -->
       <g class="ascii plane-1">
-        <text x="140" y="59">      @@@@@@@      </text>
-        <text x="140" y="77">   @@@       @@@   </text>
-        <text x="140" y="95">  @@           @@  </text>
-        <text x="140" y="113"> @@             @@ </text>
-        <text x="140" y="131"> @@             @@ </text>
-        <text x="140" y="149"> @@             @@ </text>
-        <text x="140" y="167"> @@             @@ </text>
-        <text x="140" y="185">  @@           @@  </text>
-        <text x="140" y="203">   @@@       @@@   </text>
-        <text x="140" y="221">      @@@@@@@      </text>
+        <text x="250" y="169">      @@@@@@@      </text>
+        <text x="250" y="187">   @@@       @@@   </text>
+        <text x="250" y="205">  @@           @@  </text>
+        <text x="250" y="223"> @@             @@ </text>
+        <text x="250" y="241"> @@             @@ </text>
+        <text x="250" y="259"> @@             @@ </text>
+        <text x="250" y="277"> @@             @@ </text>
+        <text x="250" y="295">  @@           @@  </text>
+        <text x="250" y="313">   @@@       @@@   </text>
+        <text x="250" y="331">      @@@@@@@      </text>
       </g>
 
+      <!-- Anel 2 (Eixo Y Lateral) -->
       <g class="ascii plane-2">
-        <text x="140" y="59">      =======      </text>
-        <text x="140" y="77">   ===       ===   </text>
-        <text x="140" y="95">  ==           ==  </text>
-        <text x="140" y="113"> ==             == </text>
-        <text x="140" y="131"> ==             == </text>
-        <text x="140" y="149"> ==             == </text>
-        <text x="140" y="167"> ==             == </text>
-        <text x="140" y="185">  ==           ==  </text>
-        <text x="140" y="203">   ===       ===   </text>
-        <text x="140" y="221">      =======      </text>
+        <text x="250" y="169">      =======      </text>
+        <text x="250" y="187">   ===       ===   </text>
+        <text x="250" y="205">  ==           ==  </text>
+        <text x="250" y="223"> ==             == </text>
+        <text x="250" y="241"> ==             == </text>
+        <text x="250" y="259"> ==             == </text>
+        <text x="250" y="277"> ==             == </text>
+        <text x="250" y="295">  ==           ==  </text>
+        <text x="250" y="313">   ===       ===   </text>
+        <text x="250" y="331">      =======      </text>
       </g>
 
+      <!-- Anel 3 (Eixo X Superior) -->
       <g class="ascii plane-3">
-        <text x="140" y="59">      0101010      </text>
-        <text x="140" y="77">   101       010   </text>
-        <text x="140" y="95">  01           10  </text>
-        <text x="140" y="113"> 10             01 </text>
-        <text x="140" y="131"> 01             10 </text>
-        <text x="140" y="149"> 10             01 </text>
-        <text x="140" y="167"> 01             10 </text>
-        <text x="140" y="185">  10           01  </text>
-        <text x="140" y="203">   010       101   </text>
-        <text x="140" y="221">      1010101      </text>
+        <text x="250" y="169">      0101010      </text>
+        <text x="250" y="187">   101       010   </text>
+        <text x="250" y="205">  01           10  </text>
+        <text x="250" y="223"> 10             01 </text>
+        <text x="250" y="241"> 01             10 </text>
+        <text x="250" y="259"> 10             01 </text>
+        <text x="250" y="277"> 01             10 </text>
+        <text x="250" y="295">  10           01  </text>
+        <text x="250" y="313">   010       101   </text>
+        <text x="250" y="331">      1010101      </text>
       </g>
 
+      <!-- Anel 4 (Eixo Diagonal) -->
       <g class="ascii plane-4">
-        <text x="140" y="59">      -------      </text>
-        <text x="140" y="77">   ---       ---   </text>
-        <text x="140" y="95">  --           --  </text>
-        <text x="140" y="113"> --             -- </text>
-        <text x="140" y="131"> --             -- </text>
-        <text x="140" y="149"> --             -- </text>
-        <text x="140" y="167"> --             -- </text>
-        <text x="140" y="185">  --           --  </text>
-        <text x="140" y="203">   ---       ---   </text>
-        <text x="140" y="221">      -------      </text>
+        <text x="250" y="169">      -------      </text>
+        <text x="250" y="187">   ---       ---   </text>
+        <text x="250" y="205">  --           --  </text>
+        <text x="250" y="223"> --             -- </text>
+        <text x="250" y="241"> --             -- </text>
+        <text x="250" y="259"> --             -- </text>
+        <text x="250" y="277"> --             -- </text>
+        <text x="250" y="295">  --           --  </text>
+        <text x="250" y="313">   ---       ---   </text>
+        <text x="250" y="331">      -------      </text>
       </g>
     </g>
   </g>
