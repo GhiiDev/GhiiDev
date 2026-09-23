@@ -18,7 +18,7 @@
 
 ### ■ SYSTEM CORE
 
-<img src="https://media.giphy.com/media/26BRuPv4ZT7vPEWDm/giphy.gif" width="180" alt="Minimalist Spider-Man Core">
+<img src="https://i.giphy.com/26BRuPv4ZT7vPEWDm.gif" width="180" alt="Minimalist Spider-Man Core">
 
 <br>
 
