@@ -18,7 +18,7 @@
 
 ### ■ SYSTEM CORE
 
-<img src="https://media.tenor.com/mCqWj1w2Z9AAAAAC/spiderman-spider.gif" width="100" alt="Minimalist Spider-Man Core">
+<img src="core.svg" width="300" alt="Core">
 
 <br>
 
