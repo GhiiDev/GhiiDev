@@ -6,7 +6,7 @@
 
 ### ` >_ SYSTEMS & APPLICATION ENGINEERING `
 
-*Crafting robust systems. Arch Linux native.*
+*Crafting robust systems with great power and great responsibility. Arch Linux native.*
 
 <br><br>
 
@@ -18,7 +18,7 @@
 
 ### ■ SYSTEM CORE
 
-<img src="core.svg" width="400">
+<img src="https://media.giphy.com/media/26BRuPv4ZT7vPEWDm/giphy.gif" width="180" alt="Minimalist Spider-Man Core">
 
 <br>
 
