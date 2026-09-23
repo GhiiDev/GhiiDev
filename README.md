@@ -1,44 +1,44 @@
 <div align="center">
 
-<img src="https://media.giphy.com/media/xTiTnHvXCWxMqPeHkk/giphy.gif" width="200" alt="Homem-Aranha">
+<img src="https://media.giphy.com/media/26BRuPv4ZT7vPEWDm/giphy.gif" width="120" alt="Minimalist Web GIF">
 
-<br><br>
+<br>
 
-# <kbd> G H I I D E V </kbd> 🕷️
+# <h1 style="color: #ff3333;"><code>G H I I D E V</code></h1>
 
-### ` >_ SYSTEMS & APPLICATION ENGINEERING `
+### <code style="color: #3b82f6;"> >_ SYSTEMS & APPLICATION ENGINEERING </code>
 
-*Crafting robust systems with great power and great responsibility. Arch Linux native.* 🕸️
+<p style="color: #94a3b8;"><em>Crafting robust systems. Arch Linux native.</em></p>
 
-<br><br>
+<br>
 
-### ■ THE STACK
+### <span style="color: #ff3333;">■</span> <span style="color: #f8fafc;">THE STACK</span>
 
 <kbd> Rust </kbd> &nbsp;┼&nbsp; <kbd> Java </kbd> &nbsp;┼&nbsp; <kbd> Python </kbd> &nbsp;┼&nbsp; <kbd> Git </kbd> &nbsp;┼&nbsp; <kbd> Arch Linux </kbd>
 
 <br>
 
-### ■ SYSTEM CORE
+### <span style="color: #ff3333;">■</span> <span style="color: #f8fafc;">SYSTEM CORE</span>
 
 <img src="core.svg" width="400">
 
 <br>
 
-### ■ OPERATING PRINCIPLES
+### <span style="color: #ff3333;">■</span> <span style="color: #f8fafc;">OPERATING PRINCIPLES</span>
 
 <br>
 
 </div>
 
-> **01. Control 🕸️:** Command line over GUI. Arch Linux as the absolute foundation.
+> **<span style="color: #ff3333;">01. Control:</span>** Command line over GUI. Arch Linux as the absolute foundation.
 > 
-> **02. Performance ⚡:** Rust for systems that cannot fail or waste milliseconds.
+> **<span style="color: #ff3333;">02. Performance:</span>** Rust for systems that cannot fail or waste milliseconds.
 > 
-> **03. Scale 🏙️:** Java for architecting robust and predictably maintainable backends.
+> **<span style="color: #ff3333;">03. Scale:</span>** Java for architecting robust and predictably maintainable backends.
 > 
-> **04. Agility 🕷️:** Python for rapid prototyping, seamless automation, and scripting.
+> **<span style="color: #ff3333;">04. Agility:</span>** Python for rapid prototyping, seamless automation, and scripting.
 > 
-> **05. History 🕸️:** Git is not a backup; it is the precise narrative of engineering decisions.
+> **<span style="color: #ff3333;">05. History:</span>** Git is not a backup; it is the precise narrative of engineering decisions.
 
 <div align="center">
 
@@ -46,9 +46,9 @@
 
 <a href="https://git.io/typing-svg">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=15&pause=1000&color=E23636&center=true&vCenter=true&width=450&lines=%3E_+sudo+pacman+-Syu...;%3E_+cargo+build+--release...;%3E_+system+status:+optimal;%3E_+my+spider-sense+is+tingling...;%3E_+EOF">
-    <source media="(prefers-color-scheme: light)" srcset="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=15&pause=1000&color=1D4ED8&center=true&vCenter=true&width=450&lines=%3E_+sudo+pacman+-Syu...;%3E_+cargo+build+--release...;%3E_+system+status:+optimal;%3E_+my+spider-sense+is+tingling...;%3E_+EOF">
-    <img alt="Typing Terminal" src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=15&pause=1000&color=E23636&center=true&vCenter=true&width=450&lines=%3E_+sudo+pacman+-Syu...;%3E_+cargo+build+--release...;%3E_+system+status:+optimal;%3E_+my+spider-sense+is+tingling...;%3E_+EOF">
+    <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=15&pause=1000&color=FF3333&center=true&vCenter=true&width=450&lines=%3E_+sudo+pacman+-Syu...;%3E_+cargo+build+--release...;%3E_+system+status:+optimal;%3E_+spider-sense:+active...;%3E_+EOF">
+    <source media="(preprs-color-scheme: light)" srcset="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=15&pause=1000&color=2563EB&center=true&vCenter=true&width=450&lines=%3E_+sudo+pacman+-Syu...;%3E_+cargo+build+--release...;%3E_+system+status:+optimal;%3E_+spider-sense:+active...;%3E_+EOF">
+    <img alt="Typing Terminal" src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=15&pause=1000&color=FF3333&center=true&vCenter=true&width=450&lines=%3E_+sudo+pacman+-Syu...;%3E_+cargo+build+--release...;%3E_+system+status:+optimal;%3E_+spider-sense:+active...;%3E_+EOF">
   </picture>
 </a>
 
