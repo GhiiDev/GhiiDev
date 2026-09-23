@@ -1,1 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300" width="300" height="300">
+  <defs>
+    <!-- Efeito de brilho do núcleo animado -->
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="5" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+    
+    <!-- Gradiente da Aranha -->
+    <linearGradient id="spiderRed" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF3333" />
+      <stop offset="100%" stop-color="#990000" />
+    </linearGradient>
+
+    <!-- Animações CSS embutidas no SVG -->
+    <style>
+      @keyframes pulseAndFloat {
+        0% { transform: translateY(0px) scale(1.3); filter: brightness(1); }
+        50% { transform: translateY(-8px) scale(1.35); filter: brightness(1.4); }
+        100% { transform: translateY(0px) scale(1.3); filter: brightness(1); }
+      }
+      .core-spider {
+        transform-origin: center;
+        animation: pulseAndFloat 4s infinite ease-in-out;
+      }
+      @keyframes blink {
+        0%, 100% { opacity: 0.3; }
+        50% { opacity: 0.8; }
+      }
+      .status-text {
+        animation: blink 2s infinite;
+      }
+    </style>
+  </defs>
+
+  <!-- Fundo invisível para manter proporção -->
+  <rect width="300" height="300" fill="transparent" />
+
+  <!-- Linha guia de foco ultra minimalista -->
+  <line x1="150" y1="50" x2="150" y2="250" stroke="#1D4ED8" stroke-width="1" opacity="0.2" stroke-dasharray="4 4" />
+  <line x1="50" y1="150" x2="250" y2="150" stroke="#1D4ED8" stroke-width="1" opacity="0.2" stroke-dasharray="4 4" />
+
+  <!-- Aranha Central (Núcleo) Animada -->
+  <g class="core-spider" filter="url(#glow)">
+    <g transform="translate(150, 150)">
+      <!-- Abdómen -->
+      <polygon points="0,-5 -15,25 0,45 15,25" fill="url(#spiderRed)" />
+      <!-- Cefalotórax -->
+      <polygon points="0,-25 -10,-5 10,-5" fill="#E23636" />
+      
+      <!-- Pernas Esquerdas -->
+      <polyline points="-8,-10 -25,-30 -40,-15" fill="none" stroke="#E23636" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+      <polyline points="-10,0 -35,-5 -50,10" fill="none" stroke="#E23636" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+      <polyline points="-12,10 -40,20 -50,45" fill="none" stroke="#E23636" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+      <polyline points="-8,20 -20,40 -25,65" fill="none" stroke="#E23636" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+      
+      <!-- Pernas Direitas -->
+      <polyline points="8,-10 25,-30 40,-15" fill="none" stroke="#E23636" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+      <polyline points="10,0 35,-5 50,10" fill="none" stroke="#E23636" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+      <polyline points="12,10 40,20 50,45" fill="none" stroke="#E23636" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+      <polyline points="8,20 20,40 25,65" fill="none" stroke="#E23636" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+  </g>
+  
+  <!-- Status Minimalista Animado -->
+  <text class="status-text" x="150" y="275" font-family="monospace" font-size="11" fill="#1D4ED8" text-anchor="middle" letter-spacing="3">[ SYSTEM_OPTIMAL ]</text>
+</svg>
 
